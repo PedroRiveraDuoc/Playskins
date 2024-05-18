@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(45deg, #63adeb 0%, #023f9a 100%);
-    background-size: 200% 400%;
+    background-size: 200% 800%;
     height: 100%;
     width: 100%;
     animation: background 4s ease infinite;
@@ -204,6 +204,8 @@ p {
     object-fit: cover;
     /* Mantener proporciones de la imagen */
     margin-right: 20px;
+    margin-left: 35px;
+    margin-top: 20px;
 }
 
 .game-info {
@@ -319,3 +321,5 @@ p {
 .add-to-cart-button:hover {
     background-color: var(--hover-color);
 }
+
+
